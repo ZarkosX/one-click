@@ -20,9 +20,9 @@ pterodactyl_github() {
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/Pterodacrtyl-panel/main/panel) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/Pterodacrtyl-panel/main/wings) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Subhanplays/24-7/main/24-7.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/panel-fox) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -45,9 +45,9 @@ skyport_github() {
         read -p "Choose an option: " choice
 
        case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/skyport-panel/main/panel.sh) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/skyport-panel/main/node.sh) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Subhanplays/24-7/main/24-7.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/panel) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/wings) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -70,9 +70,9 @@ pterodactyl_codesandbox() {
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/codesendbox-ptero/main/install) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/codesendbox-ptero/main/wings) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Subhanplays/24-7/main/24-7.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/Pterodactyl/panel);;
+            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -95,9 +95,9 @@ skyport_codesandbox() {
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/Skyport/main/panel.sh) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Subhanplays/Skyport/main/node.sh) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Subhanplays/24-7/main/24-7.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/panel) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/wings) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -122,7 +122,7 @@ pufferpanel_codesandbox() {
         case $choice in
             1) 
                 echo "👉 Installing PufferPanel..."
-                bash <(curl -s https://raw.githubusercontent.com/subhanplays/hostingsetups/main/puffer-panel-install)
+                bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/puffer-panel/refs/heads/main/install)
                 ;;
             2) 
                 echo "👉 Creating PufferPanel Admin User..."
