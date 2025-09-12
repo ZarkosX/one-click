@@ -144,7 +144,7 @@ pufferpanel_codesandbox() {
 while true; do
     clear
     echo "====================================="
-    echo " 🚀 PANEL INSTALLER MAIN MENU"
+    echo " 🚀 PANEL INSTALLER MAIN menu Fox"
     echo "====================================="
     echo "1) GitHub"
     echo "2) CodeSandbox"
