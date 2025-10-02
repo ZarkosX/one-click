@@ -20,9 +20,9 @@ pterodactyl_github() {
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/panel-fox) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Pterodactyl-Panel/refs/heads/main/panel-fox) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/ZarkosX/ZarkosX-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -32,22 +32,22 @@ pterodactyl_github() {
 # -------------------------------
 # Skyport GitHub Menu
 # -------------------------------
-skyport_github() {
+Draco_github() {
     while true; do
         clear
         echo "==============================="
-        echo " 🚀 Skyport (GitHub)"
+        echo " 🚀 Darco (GitHub)"
         echo "==============================="
-        echo "1) Install Skyport Panel"
-        echo "2) Install Skyport Node"
+        echo "1) Install Draco Panel"
+        echo "2) Install Draco Node"
         echo "3) Setup 24/7"
         echo "0) Back"
         read -p "Choose an option: " choice
 
        case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/panel) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/wings) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Draco-Panel/refs/heads/main/draco) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Draco-Panel/refs/heads/main/Wings) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/ZarkosX/ZarkosX-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -70,9 +70,9 @@ pterodactyl_codesandbox() {
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/Pterodactyl/panel);;
-            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Pterodactyl-Panel/refs/heads/main/Pterodactyl/panel);;
+            2) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Pterodactyl-Panel/refs/heads/main/wings-fox) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/ZarkosX/ZarkosX-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -80,24 +80,24 @@ pterodactyl_codesandbox() {
 }
 
 # -------------------------------
-# Skyport CodeSandbox Menu
+# Draco CodeSandbox Menu
 # -------------------------------
-skyport_codesandbox() {
+Draco_codesandbox() {
     while true; do
         clear
         echo "==============================="
-        echo " 🚀 Skyport (CodeSandbox)"
+        echo " 🚀 Draco (CodeSandbox)"
         echo "==============================="
-        echo "1) Install Skyport Panel"
-        echo "2) Install Skyport Node"
+        echo "1) Install Draco Panel"
+        echo "2) Install Draco Node"
         echo "3) Setup 24/7"
         echo "0) Back"
         read -p "Choose an option: " choice
 
         case $choice in
-            1) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/panel) ;;
-            2) bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Skyport-Panel/refs/heads/main/wings) ;;
-            3) python3 <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Fox-Scripts/refs/heads/main/247.py) ;;
+            1) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Draco-Panel/refs/heads/main/draco) ;;
+            2) bash <(curl -s https://raw.githubusercontent.com/ZarkosX/Draco-Panel/refs/heads/main/Wings) ;;
+            3) python3 <(curl -s https://raw.githubusercontent.com/ZarkosX/ZarkosX-Scripts/refs/heads/main/247.py) ;;
             0) break ;;
             *) echo "❌ Invalid option"; sleep 1 ;;
         esac
@@ -122,7 +122,7 @@ pufferpanel_codesandbox() {
         case $choice in
             1) 
                 echo "👉 Installing PufferPanel..."
-                bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/puffer-panel/refs/heads/main/install)
+                bash <(curl -s https://raw.githubusercontent.com/ZarkosX/puffer-panel/refs/heads/main/install)
                 ;;
             2) 
                 echo "👉 Creating PufferPanel Admin User..."
@@ -144,7 +144,7 @@ pufferpanel_codesandbox() {
 while true; do
     clear
     echo "====================================="
-    echo " 🚀 PANEL INSTALLER MAIN menu Fox"
+    echo " 🚀 PANEL INSTALLER MAIN menu ZarkosX"
     echo "====================================="
     echo "1) GitHub"
     echo "2) CodeSandbox"
@@ -159,13 +159,13 @@ while true; do
                 echo " 📂 Select Panel (GitHub)"
                 echo "==============================="
                 echo "1) Pterodactyl"
-                echo "2) Skyport"
+                echo "2) Draco"
                 echo "0) Back"
                 read -p "Choose an option: " panel_choice
 
                 case $panel_choice in
                     1) pterodactyl_github ;;
-                    2) skyport_github ;;
+                    2) draco_github ;;
                     0) break ;;
                     *) echo "❌ Invalid option"; sleep 1 ;;
                 esac
@@ -178,14 +178,14 @@ while true; do
                 echo " 📂 Select Panel (CodeSandbox)"
                 echo "==============================="
                 echo "1) Pterodactyl"
-                echo "2) Skyport"
+                echo "2) Draco"
                 echo "3) PufferPanel"
                 echo "0) Back"
                 read -p "Choose an option: " panel_choice
 
                 case $panel_choice in
                     1) pterodactyl_codesandbox ;;
-                    2) skyport_codesandbox ;;
+                    2) draco_codesandbox ;;
                     3) pufferpanel_codesandbox ;;
                     0) break ;;
                     *) echo "❌ Invalid option"; sleep 1 ;;
